@@ -28,7 +28,8 @@ public class Controller extends javax.swing.JFrame {
     }
     
     public static void sendSignal(String command){
-        javainstitute.io.BluetoothDevice.connect("0022120148E6");
+        javainstitute.io.BluetoothDevice.connect("0022120148E6"); //Kusal
+//          javainstitute.io.BluetoothDevice.connect("00221202708E"); //Janana
         javainstitute.io.BluetoothDevice.send(command);
     }
     
